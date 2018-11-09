@@ -19,7 +19,7 @@ function init(e) {
 
   if(key === codes[index]){
     index++;
-    if (index === alphabet.length){
+    if (index === codes.length){
       alert("You found it!");
       index = 0;
     }
